@@ -2,7 +2,7 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import Image from "next/image";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
-import UserButton from "@/modules/auth/ui/component/UserButton";
+import MyUserButton from "@/modules/auth/ui/component/UserButton";
 
 const HomeNavbar = () => {
     return (
@@ -23,7 +23,7 @@ const HomeNavbar = () => {
                 </div>
                 {/* AuthButton */}
                 <div className="shrink-0 flex items-center gap-4">
-                    <UserButton />
+                    <MyUserButton />
                 </div>
             </div>
         </nav>
